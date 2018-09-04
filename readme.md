@@ -2,7 +2,7 @@
 
 This library will check your credit card validation.
 
-## Method:
+## Method
 
 cardValidator(creditCardNumber);
 
