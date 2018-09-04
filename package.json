@@ -1,0 +1,28 @@
+{
+  "name": "card-card-validator",
+  "version": "1.0.0",
+  "description": "Verify your credit card",
+  "main": "index-test.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.1.2"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "nyc mocha"
+  },
+  "author": "Isagalbero",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isagalbero/Card-card-validator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/isagalbero/Card-card-validator/issues"
+  },
+  "homepage": "https://github.com/isagalbero/Card-card-validator#readme"
+}
