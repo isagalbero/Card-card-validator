@@ -6,9 +6,9 @@ This library will check your credit card validation.
 
 cardValidator(creditCardNumber);
 
-Example:
+###### Example:
 
-You can use Node.js
+You can use Node.js:
 
 ```
 $node
