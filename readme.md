@@ -1,3 +1,4 @@
+### Card validator
 Primeiramente o usuário deve inserir o número do cartão que deseja verificar, a função cardValidator() é invocada.
 
 Esse mesmo número será armazenado e dividido na variável myCard e depois armazenado e invertido pela variável para ser validado.
