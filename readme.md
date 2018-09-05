@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Card validator v.1.0.3
+=======
+# Card validator v.1.0.0
+>>>>>>> aa4ea462ce5711962715eddb96794116e5c2d0b8
 
 This library will check your credit card validation.
 
@@ -13,6 +17,7 @@ You can use Node.js:
 ```
 $node
 > const check = require("card-card-validator")
+<<<<<<< HEAD
 > check(yourcreditcardnumberhere); // "true"/"false"
 ```
 
@@ -39,3 +44,14 @@ $node
 
 * First release.
 * Returns ```true``` if the card is valid; otherwise, ```false```.
+=======
+> check(your credit card number here); // "true"/"false"
+```
+
+## Roadmap
+
+###### Version 1.0.0
+
+* Returns ```true``` if the card is valid; otherwise, ```false```.
+
+>>>>>>> aa4ea462ce5711962715eddb96794116e5c2d0b8
