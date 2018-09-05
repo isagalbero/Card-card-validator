@@ -1,6 +1,6 @@
 {
   "name": "card-card-validator",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Verify your credit card",
   "main": "index-test.js",
   "directories": {
@@ -15,6 +15,9 @@
   "scripts": {
     "test": "nyc mocha"
   },
+  "keywords": [
+    "cardValidator", "creditCard"
+  ],
   "author": "Isagalbero",
   "license": "ISC",
   "repository": {

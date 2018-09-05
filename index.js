@@ -7,13 +7,10 @@ function cardValidator(creditCardNumber) {
   } else if (creditCardNumber.toString().length < 10) {
     throw new Error("Há menos de 10 dígitos");
   }
-  
-
 
   const myCard = creditCardNumber.toString().split("").reverse();
- 
 
-  for (let i = 0; i < myCard.length; i += 2) {
+  for (let i = 0; i < myCard.length; i++) {
     myCard[i] = parseInt(myCard[i]);
   }
 
@@ -28,8 +25,6 @@ function cardValidator(creditCardNumber) {
       myCard[i] = splitCard;
     } else {
       myCard[i] = myCard[i] * 2;
-
-
     }
   }
   
@@ -42,16 +37,7 @@ function cardValidator(creditCardNumber) {
 
   var somatoria = numSum % 10;
 
-  if (somatoria === 0) {
-    
-    return true;
-   
-  } else {
- 
-    return false;
-  
-  }
-
+  return somatoria === 0;
 
 }
 cardValidator(5031433215406351);
