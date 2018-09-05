@@ -40,6 +40,3 @@ $node
 
 * First release.
 * Returns ```true``` if the card is valid; otherwise, ```false```.
-=======
-> check(your credit card number here); // "true"/"false"
-```
