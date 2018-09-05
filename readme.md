@@ -20,22 +20,22 @@ $node
 
 ###### Version 1.0.3
 
-* Bug fixes, other minor changes
+* Bug fixes, other minor changes, update package.json file.
 * Returns ```true``` if the card is valid; otherwise, ```false```.
 
 
 ###### Version 1.0.2
 
-* Bug fixes, other minor changes
+* Bug fixes, other minor changes, update index.js file.
 * Returns ```true``` if the card is valid; otherwise, ```false```.
 
 
 ###### Version 1.0.1
 
-* Bug fixes, other minor changes
+* Bug fixes, other minor changes.
 * Returns ```true``` if the card is valid; otherwise, ```false```.
 
 ###### Version 1.0.0
 
-* First release
+* First release.
 * Returns ```true``` if the card is valid; otherwise, ```false```.
